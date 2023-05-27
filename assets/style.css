@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+.container{
+    width: 50%;
+    height: 80vw;
+    margin: 20px 80px;
+  
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    height: 40vw;
+    width: 85vw;
+    margin-top: 40px;
+    
+
+}
+.card{
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow:0.5px 0.5em 0.7em 0.5px  lightgrey;
+    
+    
+}
+.icons{
+    display: inline;  
+    padding-left: 20px; 
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin: 20px auto;
+    padding-left: 1px;
+    
+}
+.reviews {
+    display: flex
+   
+}
+.review{
+    
+    margin-right: 10px;
+    margin-left: 30px;
+}
+p{
+    color: rgb(141, 135, 135);
+    margin-top: 10px;
+}
+.text{
+    margin: 1px 20px 40px;
+}
+.name{
+    margin: 10px;
+}
+
+
